@@ -83,11 +83,9 @@
 }
   .tof{
     display: flex;
-
     width: 400px;
     height: 400px;
-    
-  }
+    }
   .pop-up{
     display: flex;
     flex-direction: column;
@@ -95,7 +93,7 @@
   }
   footer{
     display: flex;
-    height: 300px;
+    height: 100px;
     width: 1280px;
     position: relative;
     top: 50px;
@@ -120,5 +118,4 @@
     display: flex;
     justify-content: space-around;
     width: 1080px;
-
   }
