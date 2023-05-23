@@ -57,82 +57,21 @@
     flex-direction: row;
     justify-content: space-between;
   }
-  .oops{
-    display: flex;
-    justify-content: space-around;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color:aquamarine;
-    font-size: 30px;
- }
- .interro{
-  height: 100px;
-  width: 100px;
- }
-  body{
+  .interro{
+    height: 100px;
+    width: 100px;
+   }
+   body{
     background: url("Design\ sans\ titre.png");
   }
   main{
     margin-left: 100px;
     margin-right: 100px;
   }
-  .line{
-    border-bottom: 2px solid;
-    margin: 20px 5px;
-    flex-grow: 1;
-    color: aquamarine;
-}
-  .tof{
+  .photo{
     display: flex;
-    width: 400px;
-    height: 400px;
-    }
-  .pop-up{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  footer{
-    display: flex;
-    height: 100px;
-    width: 1280px;
-    position: relative;
-    top: 50px;
-    background-color: blueviolet;
+    height: 800px;
+    width: 1100px;
     margin-left: 100px;
     margin-right: 100px;
-
   }
-  .linkedin{
-    height: 100px;
-    width: 100px;
-  }
-  .insta{
-    height: 100px;
-    width: 100px;
-  }
-  .github{
-    height: 100px;
-    width: 100px;
-  }
-  .social-media{
-    display: flex;
-    justify-content: space-around;
-    width: 1080px;
-  }
-  @media (max-width: 400px){
-    .footer{
-      display: flex;
-      flex-direction: column;
-      width: auto;
-      height: auto;
-
-      background-color: blueviolet;
-}
-  }
- @media (max-width: 400px){
-  .social-media{
-    display: flex;
-    flex-direction: column;
-
-  }
- }
